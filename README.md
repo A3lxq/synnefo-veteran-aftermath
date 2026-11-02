@@ -18,11 +18,16 @@ host still running.
 **This machine is intentionally vulnerable. Run it only on an isolated
 network.**
 
-## Status
+## Running it
 
-This box ships as a VM appliance (OVA) — see the `vm/` directory once it's
-built. There is no Docker build in this repo (an earlier Docker build was
-removed; a Docker version may be added back separately).
+Download the `.ova` from this repo's [Releases](../../releases) page
+and import it into VirtualBox (File > Import Appliance) or VMware
+Workstation/Fusion (File > Open). It boots and sets itself up
+automatically — nothing to configure. See [`vm/README.md`](vm/README.md)
+for details and for rebuilding it from source.
+
+There is no Docker build in this repo (an earlier one was removed; a
+Docker version may be added back separately).
 
 ## Flag format
 
